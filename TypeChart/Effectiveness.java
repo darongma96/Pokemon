@@ -344,8 +344,8 @@ public class Effectiveness {
 		String immune = "";
 		String resistant = "";
         
-        double total;
-        int count = 0;
+		double total;
+		int count = 0;
         
         for (int i = 0; i < types.length; i++) {
         	total = Math.round(Effectiveness.calculateEffectiveness(types[i], type1) * 100.0) / 100.0 * (!type2.equals("N/A") ? 
