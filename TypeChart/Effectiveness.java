@@ -340,9 +340,9 @@ public class Effectiveness {
 	public static String[] types(String type1, String type2) {
 		String[] types = {"Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"};
 		String normal = "";
-        String weak = "";
-        String immune = "";
-        String resistant = "";
+		String weak = "";
+		String immune = "";
+		String resistant = "";
         
         double total;
         int count = 0;
